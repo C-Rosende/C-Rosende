@@ -2,7 +2,9 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=200&section=header&text=Clemente%20Rosende&fontSize=42&fontColor=ffffff&fontAlignY=45" width="100%"/>
 </p>
 
-<h3 align="center">Construyendo sistemas donde la IA opera como parte real del equipo, no como un truco de marketing.</h3>
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Frase de programación" />
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/clementerosendejofre/">
