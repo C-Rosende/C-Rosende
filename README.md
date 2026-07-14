@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=200&section=header&text=Clemente%20Rosende&fontSize=42&fontColor=ffffff&fontAlignY=45" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:414868,100:bb9af7&height=200&section=header&text=Clemente%20Rosende&fontSize=42&fontColor=ffffff&fontAlignY=45" width="100%"/>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3c72,100:2a5298&height=3" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,100:bb9af7&height=3" width="100%"/>
 </p>
 
 ## Sobre mí
@@ -21,7 +21,7 @@
 Estudiante de Ingeniería Informática, con foco en arquitectura de sistemas y automatización. Ahora mismo estoy diseñando un sistema propio de desarrollo web asistido por IA, pensado para producir sitios de calidad consistente sin sacrificar criterio técnico ni gobierno de decisiones.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3c72,100:2a5298&height=3" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,100:bb9af7&height=3" width="100%"/>
 </p>
 
 ## Proyecto actual
@@ -39,7 +39,7 @@ Estoy construyendo un sistema propio de agencia web con IA, donde los distintos 
 - [ ] Panel de cliente (diseño)
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3c72,100:2a5298&height=3" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,100:bb9af7&height=3" width="100%"/>
 </p>
 
 ## Stack
@@ -49,5 +49,5 @@ Estoy construyendo un sistema propio de agencia web con IA, donde los distintos 
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:414868,100:bb9af7&height=100&section=footer" width="100%"/>
 </p>
