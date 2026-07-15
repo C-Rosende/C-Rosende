@@ -26,17 +26,9 @@ Estudiante de Ingeniería Informática, con foco en arquitectura de sistemas y a
 
 ## Proyecto actual
 
-Estoy construyendo un sistema propio de agencia web con IA, donde los distintos roles (producto, diseño, desarrollo, QA) se ejecutan como agentes especializados sobre un pipeline documentado y auditable.
+Proyecto personal en desarrollo.
 
-**Fase actual: B, construcción de la web propia**
-
-`▓▓▓▓░░░░░░░░░░░░░░░░` 1/5 (20%)
-
-- [x] Registro de cambios versionado
-- [ ] Reglas de estándar (diseño, seguridad, entrega)
-- [ ] Agentes especializados de primera necesidad
-- [ ] Web propia, versión premium con motion
-- [ ] Panel de cliente (diseño)
+`▓▓▓▓░░░░░░░░░░░░░░░░` 1/5
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,100:bb9af7&height=3" width="100%"/>
