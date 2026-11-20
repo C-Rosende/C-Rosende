@@ -1,45 +1,63 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:414868,100:bb9af7&height=200&section=header&text=Clemente%20Rosende&fontSize=42&fontColor=ffffff&fontAlignY=45" width="100%"/>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" alt="Clemente Rosende. Computer engineering student in Santiago, Chile. I build browser tools, web apps and automation." width="100%">
+</picture>
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Frase de programación" />
-</p>
+I study Computer Engineering at Universidad Andrés Bello. I build browser tools, web apps and automation, and I care most about the parts users never see: architecture, security and tests.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/clementerosendejofre/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
+**Open to internships and freelance work** in web development and automation. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/clementerosendejofre/).
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,100:bb9af7&height=3" width="100%"/>
-</p>
+## Shipped
 
-## Sobre mí
+### [Tomo](https://github.com/C-Rosende/Tomo)
 
-Estudiante de Ingeniería Informática, con foco en arquitectura de sistemas y automatización. Ahora mismo estoy diseñando un sistema propio de desarrollo web asistido por IA, pensado para producir sitios de calidad consistente sin sacrificar criterio técnico ni gobierno de decisiones.
+<a href="https://github.com/C-Rosende/Tomo"><img src="https://raw.githubusercontent.com/C-Rosende/Tomo/main/docs/hero.svg" alt="Tomo: right-click a video to get the original file or its transcript" width="100%"></a>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,100:bb9af7&height=3" width="100%"/>
-</p>
+A browser extension with a small Windows helper. Right-click a video, an audio player or an image to save the original file, or copy what is said as text. Free, no ads, no account.
 
-## Proyecto actual
+- Published on [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/tomo/) and the [Chrome Web Store](https://chromewebstore.google.com/detail/tomo/ejdlbopdblhemopclkioijjcnmlbenfp). One codebase builds both the Manifest V2 and the Manifest V3 extension.
+- Transcripts come from the site's subtitles when they exist. Otherwise Whisper runs locally on the CPU, so the audio never leaves the computer.
+- The one-line Windows installer verifies a minisign signature over the release checksums before it runs anything, and every Python dependency is pinned by hash.
+- Python and Node test suites run in CI on Windows, macOS and Linux. The interface ships in 11 languages.
 
-Proyecto personal en desarrollo.
+## Building now
 
-`▓▓▓▓░░░░░░░░░░░░░░░░` 1/5
+### [Última Milla](https://github.com/C-Rosende/ultima-milla)
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7aa2f7,100:bb9af7&height=3" width="100%"/>
-</p>
+<a href="https://github.com/C-Rosende/ultima-milla"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/C-Rosende/ultima-milla/main/docs/screens-dark.png">
+  <img src="https://raw.githubusercontent.com/C-Rosende/ultima-milla/main/docs/screens-light.png" alt="Three screens of Última Milla" width="100%">
+</picture></a>
 
-## Stack
+A mobile web app for delivery riders in Chile that tells them what an order really leaves after fuel, maintenance and data. [Try the live demo](https://c-rosende.github.io/ultima-milla/).
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,html,css,docker,git,github,powershell,obsidian,md" />
-</p>
+- Works offline as an installable web app, with no framework, no build step and no dependencies.
+- A scheduled GitHub Action pulls prices from about 1,750 fuel stations every day, computes the median per zone and redeploys the site.
+- Cost and price logic lives in pure modules shared by the browser and the Node updater, covered by 51 tests.
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:414868,100:bb9af7&height=100&section=footer" width="100%"/>
-</p>
+### A self-hosted AI lab
+
+Local models with Ollama, vector search with Qdrant and always-on workflows in n8n, connected to my tools through an MCP server and reachable remotely over Tailscale and Cloudflare Tunnel. I run a 35B mixture-of-experts model at about 54 tokens per second on one consumer GPU by moving part of the expert layers to the CPU and fitting the rest in about 11 GB of VRAM.
+
+## Smaller tools
+
+### Discord server as code
+
+A Python CLI that manages a community server's channels and roles from a single design file, with four commands: back up, plan, apply and undo. Its dry-run mode blocks writes at the HTTP transport layer, so a plan cannot change the server by accident, and it never deletes channels or roles that already exist.
+
+## How I work
+
+**Design before code.** Specs, contracts and architecture decision records come first.
+
+**Determinism over cleverness.** Typed inputs and outputs at every step make each part easy to test and replace.
+
+**Done means tested and documented.** Nothing ships without tests and a README that explains it properly.
+
+## Toolbox
+
+| Area | Tools |
+|---|---|
+| Languages | JavaScript, Python, PowerShell |
+| Web | WebExtensions, progressive web apps, Node.js |
+| Automation and AI | n8n, Ollama, Qdrant, MCP, Whisper, yt-dlp |
+| Infrastructure | GitHub Actions, Docker, Tailscale, Cloudflare Pages and Tunnel |
