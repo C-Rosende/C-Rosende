@@ -5,7 +5,7 @@
 
 I study Computer Engineering at Universidad Andrés Bello. I build browser tools, web apps and automation, and I care most about the parts users never see: architecture, security and tests.
 
-**Open to internships and freelance work** in web development and automation. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/clementerosendejofre/).
+**Open to internships and freelance work** in web development and automation. Write to me at [c.rosendejofre@gmail.com](mailto:c.rosendejofre@gmail.com) or find me on [LinkedIn](https://www.linkedin.com/in/clementerosendejofre/).
 
 ## Shipped
 
